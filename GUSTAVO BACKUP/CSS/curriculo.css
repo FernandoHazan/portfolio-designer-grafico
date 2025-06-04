@@ -1,0 +1,121 @@
+.infos {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  gap: 40px;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.card--curriculo {
+  background-color: #1a1c28;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.card--curriculo h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+}
+
+.job,
+.edu {
+  margin-bottom: 20px;
+}
+
+.job h3,
+.edu h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.titulo--botoes {
+  font-weight: 700;
+}
+
+.job span,
+.edu span {
+  color: #bbb;
+  font-weight: normal;
+}
+
+.date {
+  color: #33cfcf;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+.text {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+aside {
+  width: 20vw;
+}
+
+aside h3 {
+  text-align: center;
+  color: #aaa;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+aside a {
+  display: block;
+  background-color: #1a1c28;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #333;
+  transition: background 0.3s;
+}
+
+aside a:hover {
+  background-color: #2a2d40;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  aside {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  aside a {
+    margin-bottom: 10px;
+  }
+}
