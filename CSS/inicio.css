@@ -1,0 +1,40 @@
+.inicio {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.nome {
+  font-size: 5rem;
+  color: #15161C;
+}
+
+.link {
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #ff547a;
+  border-radius: 20px;
+  color: #ECECE4;
+}
+
+
+@media (max-width: 425px) {
+  .nome {
+  font-size: 3rem;
+
+}
+
+.link {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: #ff547a;
+  border-radius: 20px;
+  color: #ECECE4;
+}
+}

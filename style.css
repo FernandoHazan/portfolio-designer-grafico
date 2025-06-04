@@ -1,0 +1,30 @@
+@import url("./CSS/inicio.css");
+@import url("./CSS/curriculo.css");
+@import url("./CSS/carrosel.css");
+@import url("./CSS/mosaico.css");
+
+body {
+  width: 100vw;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ECECE4;
+}
+
+section {
+  margin-bottom: 200px;
+}
+
+.fade-section {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in, visibility 0.5s ease-in;
+}
+
+.fade-section.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+iframe {
+  background-color: #D14A6A;
+}
