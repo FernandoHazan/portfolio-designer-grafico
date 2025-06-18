@@ -1,0 +1,97 @@
+@import url("./CSS/cabecalhoBanner.css");
+@import url("./CSS/variaveis.css");
+
+@font-face {
+  font-family: "Satoshi-BlackItalic";
+  src: url("./fontes/Satoshi-BlackItalic.woff") format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("./fontes/Satoshi-Bold.woff") format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("./fontes/Satoshi-Medium.woff") format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("./fontes/Satoshi-Black.woff") format("truetype");
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  color: var(--cor-principal);
+  background-color: var(--cor-secundaria);
+}
+
+.container--sobreMim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  height: 100%;
+  min-height: 100dvh;
+  width: 100vw;
+}
+
+.container--infos {
+  max-width: 600px;
+}
+
+.sobreMim--titulo {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+  font-family: var(--fonte-black);
+}
+
+.sobreMim--texto {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-family: var(--fonte-medium);
+}
+
+.sobreMim--conhecimento {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: var(--cor-principal);
+  font-family: var(--fonte-bold);
+}
+
+.container--ferramentas {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.ferramentas {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  font-family: var(--fonte-medium);
+}
+
+@media (max-width: 768px) {
+  .container--sobreMim {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0px 10px;
+    margin-bottom: 10px;
+  }
+
+  .container--sobreMim {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .sobreMim--titulo {
+    font-size: 20px;
+  }
+}
