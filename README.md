@@ -1,4 +1,4 @@
-Desenvolvi recentemente um portfólio profissional para um cliente da área de design gráfico e edição de vídeo, com foco em apresentar seus trabalhos de forma clara e atrativa.
+Desenvolvi este portfólio profissional para um cliente da área de design gráfico e edição de vídeo, com foco em apresentar seus trabalhos de forma clara e atrativa.
 
 Desde o início, busquei entender exatamente o que era necessário em termos de estrutura, identidade visual e funcionalidades. Durante o processo, mantive contato constante com o cliente, apresentando o progresso e ajustando com base no feedback recebido.
 
